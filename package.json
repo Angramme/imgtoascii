@@ -1,0 +1,28 @@
+{
+  "name": "imgtoascii",
+  "version": "1.0.0",
+  "description": "convert any image file/url to ascii art of width x",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Angramme/imgtoascii.git"
+  },
+  "bin": {
+    "imgtoascii": "bin/imgtoascii.js"
+  },
+  "keywords": [
+    "image",
+    "conversion",
+    "ascii",
+    "art"
+  ],
+  "author": "Kacper Ozieblowski",
+  "license": "ISC",
+  "dependencies": {
+    "clipboardy": "^2.3.0",
+    "get-pixels": "^3.3.2"
+  }
+}
